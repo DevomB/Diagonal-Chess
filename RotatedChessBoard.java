@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.geom.AffineTransform;
 import java.awt.geom.Rectangle2D;
 
 public class RotatedChessBoard extends JPanel {
@@ -36,13 +35,5 @@ public class RotatedChessBoard extends JPanel {
         g2.draw(new Rectangle2D.Double(0, 0, BOARD_PIXEL_SIZE, BOARD_PIXEL_SIZE));
 
         g2.dispose();
-    }
-
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("Rotated Chessboard");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(600, 600);
-        frame.add(new RotatedChessBoard());
-        frame.setVisible(true);
     }
 }
