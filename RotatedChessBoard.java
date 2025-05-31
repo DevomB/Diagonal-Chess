@@ -39,7 +39,7 @@ public class RotatedChessBoard extends JPanel {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("45° Rotated Chessboard");
+        JFrame frame = new JFrame("Rotated Chessboard");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 600);
         frame.add(new RotatedChessBoard());
