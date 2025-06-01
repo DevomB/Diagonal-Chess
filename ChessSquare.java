@@ -4,7 +4,7 @@ public class ChessSquare {
     private final int col;
     private final boolean isWhite;
     private ChessPiece currentPiece;
-
+    
     public ChessSquare(int row, int col) {
         this.row = row;
         this.col = col;
